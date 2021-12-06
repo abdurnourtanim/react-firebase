@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import Button from "./Button";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -49,12 +50,20 @@ const Navbar = () => {
               </li>
             </ul>
             <form className="d-flex">
-              <button className="btn  btn-style" type="submit">
+              {/* <button className="btn  btn-style" type="submit">
                 Sign Up
               </button>
+
               <button className="btn  btn-style btn-style-border" type="submit">
                 Log in
-              </button>
+              </button> */}
+
+              <Button className="btn  btn-style" type="submit" text="Sign Up" />
+              <Button
+                className="btn  btn-style btn-style-border"
+                type="submit"
+                text="Log in"
+              />
             </form>
           </div>
         </div>

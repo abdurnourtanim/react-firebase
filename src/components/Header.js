@@ -5,7 +5,7 @@ const Header = () => {
     <header>
       <section className="container main-hero-container">
         <div className="row">
-          <div className="col-12 col-lg-6 header-left-side d-flex justify-content-center flex-column align-items-start ">
+          <div className="col-12 col-lg-6 header-left-side d-flex justify-content-center flex-column align-items-start order-lg-first order-last">
             <h1 className="display-2">
               Online Payment Made <br /> Easy For You.
             </h1>
