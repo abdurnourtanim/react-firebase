@@ -18,8 +18,8 @@ const About = () => {
               </h3>
               <h1 className="main-heading">How to use the App?</h1>
 
-              {aboutData.map((curElem) => {
-                const { id, title, info } = curElem;
+              {aboutData.map((data) => {
+                const { id, title, info } = data;
                 return (
                   <>
                     <div className="row our-services-info" key={id}>
@@ -52,8 +52,8 @@ const About = () => {
                 World class support is <br /> available 24/7
               </h1>
 
-              {aboutData.map((curElem) => {
-                const { id, title, info } = curElem;
+              {aboutData.map((data) => {
+                const { id, title, info } = data;
                 return (
                   <>
                     <div className="row our-services-info" key={id}>

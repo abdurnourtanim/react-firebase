@@ -90,14 +90,14 @@ const Contact = () => {
                       />
                     </div>
                   </div>
-                  <div class="form-check form-checkbox-style">
+                  <div className="form-check form-checkbox-style">
                     <input
-                      class="form-check-input test"
+                      className="form-check-input test"
                       type="checkbox"
                       value=""
                       id="flexCheckChecked"
                     />
-                    <label class="form-check-label" className="main-hero-para">
+                    <label className="form-check-label main-hero-para">
                       I agree that the thapatechnicalpay may contact me at the
                       email address or phone number above
                     </label>

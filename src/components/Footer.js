@@ -65,21 +65,21 @@ const Footer = () => {
                 <h2>Follow Us</h2>
                 <div className="row">
                   <div className="col-3 mx-auto">
-                    <i class="fab fa-facebook-f fontawesome-style"></i>
+                    <i className="fab fa-facebook-f fontawesome-style"></i>
                   </div>
                   <div className="col-3 mx-auto">
                     <a
                       href="https://www.instagram.com/abdur_nour_tanim/"
                       target="_thapa"
                     >
-                      <i class="fab fa-instagram fontawesome-style"></i>
+                      <i className="fab fa-instagram fontawesome-style"></i>
                     </a>
                   </div>
                   <div className="col-3 mx-auto">
-                    <i class="fab fa-youtube fontawesome-style"></i>
+                    <i className="fab fa-youtube fontawesome-style"></i>
                   </div>
                   <div className="col-3 mx-auto">
-                    <i class="fab fa-twitter fontawesome-style"></i>
+                    <i className="fab fa-twitter fontawesome-style"></i>
                   </div>
                 </div>
               </div>

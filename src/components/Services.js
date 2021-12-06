@@ -7,13 +7,13 @@ const Services = () => {
       <div className="container service-container">
         <h1 className="main-heading text-center fw-bold">How to send money</h1>
         <div className="row">
-          {serviceData.map((curElem) => {
-            const { id, logo, title, info } = curElem;
+          {serviceData.map((data) => {
+            const { id, logo, title, info } = data;
             return (
               <>
                 <div
-                  className="col-11 col-lg-4 col-xxl-4 work-container-subdiv"
                   key={id}
+                  className="col-11 col-lg-4 col-xxl-4 work-container-subdiv"
                 >
                   <i className={`fontawesome-style ${logo}`}></i>
                   <h2 className="sub-heading">{title}</h2>
